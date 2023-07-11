@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Banner style here */
@@ -15,7 +16,7 @@ header{
     margin-bottom: 0;
 }
 .details{
-    color: rgb(204, 193, 195);
+    color: rgb(101, 98, 98);
 }
 .btn-primary{
     padding: 16px 30px;
@@ -23,4 +24,25 @@ header{
     background: #E55473;
     color: white;
     border-radius: 10px;
+}
+
+/* Hot Deal Section Style */
+.hot-deal{
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(252 , 238 , 241);
+    justify-content: space-around;
+    gap: 44px;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hot-deal-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.text-color{
+    color: #E55473;
 }
