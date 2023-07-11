@@ -111,3 +111,20 @@ header {
     display: flex;
     gap: 24px;
 }
+
+/* Footer Style Here */
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.copy-right{
+    color: #494949;
+}
