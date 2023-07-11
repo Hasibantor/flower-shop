@@ -29,6 +29,46 @@ header {
     border-radius: 10px;
 }
 
+/* All Section */
+.section {
+    max-width: 1200px;
+    margin: 0  auto 64px auto;
+}
+
+/* Featured Section */
+.featured-images{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-images div img{
+    height: 300px;
+    width: 300px;
+}
+
+.first-img-bg{
+    background-color: #F2DEE7;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.second-img-bg{
+    background-color: #D9EFF1;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.third-img-bg{
+    background-color: #E3EBDB;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
 /* Hot Deal Section Style */
 .hot-deal {
     margin-top: 100px;
@@ -50,11 +90,8 @@ header {
     color: #E55473;
 }
 
-/* All Section */
-.section {
-    max-width: 1200px;
-    margin: 0  auto 64px auto;
-}
+
+
 
 /* Instagram Section Style */
 .section-info {
