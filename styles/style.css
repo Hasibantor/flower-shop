@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+/* Banner style here */
+header{
+    background-color: rgb(252 , 238 , 241);
+    padding-top: 44px;
+    display: flex;  
+    justify-content: space-around;
+}
+.title{
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 0;
+}
+.details{
+    color: rgb(204, 193, 195);
+}
+.btn-primary{
+    padding: 16px 30px;
+    border: 0;
+    background: #E55473;
+    color: white;
+    border-radius: 10px;
+}
