@@ -44,8 +44,8 @@ header {
 }
 
 .featured-images div img{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
 }
 
 .first-img-bg{
@@ -72,6 +72,26 @@ header {
 .flower-name{
     text-align: center;
     text-decoration: underline;
+}
+
+/* Services section */
+.services{
+    max-width: 1200px;
+    margin: 0  auto 64px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    padding: 44px 0;
+    border-radius: 15px;
+    
+}
+
+.service{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #505050;
 }
 
 /* Hot Deal Section Style */
