@@ -69,6 +69,11 @@ header {
     border-top-right-radius: 50%;
 }
 
+.flower-name{
+    text-align: center;
+    text-decoration: underline;
+}
+
 /* Hot Deal Section Style */
 .hot-deal {
     margin-top: 100px;
